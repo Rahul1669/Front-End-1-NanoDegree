@@ -1,0 +1,64 @@
+/* add your CSS here */
+
+body {
+	
+	font-family: Arial, sans-serif;
+}
+
+
+
+h1 {
+	padding: 10px;
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	color: #4f4f4f;
+	margin: 0 auto;
+}
+
+.animal-card {
+	width: 320px;
+	border: 2px solid silver;
+	margin: 20px;
+	border-radius: 5px;
+	background-color: #B9FF91;
+	-webkit-box-shadow: 3px 13px 36px 1px rgb(50,117,72);
+	-moz-box-shadow: 3px 13px 36px 1px rgba(50,117,72,0.61);
+	box-shadow: 3px 13px 36px 1px rgb(50,117,72);
+
+	max-height: 800px;
+}
+
+.cool-fact {
+	font-style: italic;
+}
+
+
+img {
+	width: 300px;
+	padding: 9px;
+	border-radius: 5px;
+	/*border: 1px solid #7fff00;*/
+	
+}
+
+.content_box {
+	max-width: 300px;
+	border: 1px solid silver;
+	margin: 8px;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #FFDEFF;
+	background-repeat: repeat-x;
+	/*background-color: #C2F1C5;*/
+	color: #4F4F4F;
+
+}
+
+li {
+	list-style-type: none;
+	text-indent: -30px;
+}
+
+.facts-list span {
+	font-weight: bold;
+}
